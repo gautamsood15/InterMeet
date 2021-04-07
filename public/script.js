@@ -1,3 +1,5 @@
+const { text } = require("express");
+
 const socket = io('/');
 const videoGrid = document.getElementById('video-grid');
 const myVideo = document.createElement('video');
@@ -29,7 +31,21 @@ navigator.mediaDevices.getUserMedia({
     socket.on('user-connected', (userId) => {
         connectToNewUser(userId, stream);
     })
-})
+
+    let text = $('input')
+
+    $('html').keydown(function(e) => {
+        if(e.which == 13 && text.val().length !== 0) {
+            console.log(text.val())
+            socket.emit('message', text.val());
+            text.val('')
+        }
+    });
+
+    socket.on('createMessage', message => {
+        $('.messages').append(`<li class="message"><b>user<b><br/>${message}</li>`);
+    })
+});
 
 peer.on('open', id => {
     socket.emit('join-room', ROOM_ID, id);
@@ -51,3 +67,5 @@ const addVideoStream = (video, stream) => {
     })
     videoGrid.append(video);
 }
+
+
