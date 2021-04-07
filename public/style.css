@@ -106,8 +106,10 @@ video {
 }
 
 
-
-
+.messages { 
+    color: white;
+    list-style: none;
+}
 
 
 
