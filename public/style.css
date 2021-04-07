@@ -41,7 +41,7 @@ video {
 
 .main__controls {
     display: flex;
-    background-color: #1C1E20;
+    background-color: #ffffff;
     color: 5px;
     padding: 5px;
     justify-content: space-between;
@@ -68,19 +68,22 @@ video {
 }
 
 .main__controls__button:hover {
-    background-color: #660000;
+    background-color: rgb(10, 83, 107);
     border-radius: 5px;
+
 }
 
 .leave_meeting {
-    color: #EB534B;
+    color: black;
 }
+
+
 
 .main__right {
     display: flex;
     flex-direction: column;
-    background-color: #242324;
-    border-left: 1px solid #3d3d42;
+    background-color: rgb(202, 213, 216);
+    border-left: 1px solid rgb(3, 16, 21);
 }
 
 .main__header {
