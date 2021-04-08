@@ -44,6 +44,7 @@ navigator.mediaDevices.getUserMedia({
 
     socket.on('createMessage', message => {
         $('.messages').append(`<li class="message"><b>user<b><br/>${message}</li>`);
+        scrollToBottom()
     })
 });
 
@@ -69,3 +70,7 @@ const addVideoStream = (video, stream) => {
 }
 
 
+const scrollToBottom = () => {
+    let d = $('.main__chat_window');
+    d.scrollTop(d.prop("scrollHeight"));  
+}
