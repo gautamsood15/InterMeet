@@ -19,6 +19,8 @@
 ### NodeJS 
 ### Express
 ### PeerJS (WebRTC)
+### FontAwesome
+### Bootstrap
 
 ## Essential commands :
 
