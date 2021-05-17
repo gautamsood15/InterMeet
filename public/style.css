@@ -44,6 +44,7 @@ video {
     background-color: #1C1E20;
     color: 5px;
     padding: 5px;
+    justify-content: space-between;
 }
 
 .main__controls__block {
@@ -58,9 +59,21 @@ video {
     align-items: center;
     padding: 8px 10px;
     min-width: 80px;
-
     cursor: pointer;
     
+}
+
+.main__controls__button i {
+    font-size: 24px;
+}
+
+.main__controls__button:hover {
+    background-color: #660000;
+    border-radius: 5px;
+}
+
+.leave_meeting {
+    color: #EB534B;
 }
 
 
