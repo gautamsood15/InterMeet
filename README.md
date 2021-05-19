@@ -19,3 +19,8 @@
 ### NodeJS 
 ### Express
 ### PeerJS
+
+
+## Essential commands
+
+### npm init -- To initialize our project creates package.json file
