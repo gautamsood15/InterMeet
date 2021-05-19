@@ -1,7 +1,7 @@
 # WebMeet
 ### WebMeet is a video and chatting service that allows people to connect online and work online in a collaborative manner over various geographical spaces.
 
-# Features to be Developed
+# Features to be Developed :
 
 ### Initialize NodeJS Project 
 ### Initialize First View
@@ -13,7 +13,7 @@
 ### Add mute button
 ### Add stop video button
 
-## Technologies used --
+## Technologies used :
 
 ### Socket.io
 ### NodeJS 
@@ -21,6 +21,7 @@
 ### PeerJS
 
 
-## Essential commands
+## Essential commands :
 
 ### npm init -- To initialize our project creates package.json file
+### npm install express -- To install express framework
