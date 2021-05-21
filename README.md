@@ -26,6 +26,5 @@
 ### npm init -- To initialize our project creates package.json file
 ### npm install express -- To install express framework
 ### npm install -g nodemon -- install nodemon to run the nodeJS server 
-
-
 ### npm install ejs -- EJS (Embedded JavaScript) Allows us to pass variables in HTML 
+### npm install uuid -- To generate unique ID's using Cryptographically-strong random values
