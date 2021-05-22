@@ -1,5 +1,5 @@
 # WebMeet
-### WebMeet is a video and chatting service that allows people to connect online and work online in a collaborative manner over various geographical spaces.
+### WebMeet is a a videotelephony software program that allows people to connect online and work online in a collaborative manner over various geographical spaces.
 
 # Features to be Developed :
 
