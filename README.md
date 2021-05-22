@@ -28,4 +28,4 @@
 ### npm install -g nodemon -- install nodemon to run the nodeJS server 
 
 
-### EJS (Embedded JavaScript) -- Allows us to pass variables in HTML 
+### npm install ejs -- EJS (Embedded JavaScript) Allows us to pass variables in HTML 

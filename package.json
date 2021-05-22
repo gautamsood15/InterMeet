@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/gautamsood15/WebMeet/issues"
   },
-  "homepage": "https://github.com/gautamsood15/WebMeet#readme"
+  "homepage": "https://github.com/gautamsood15/WebMeet#readme",
+  "dependencies": {
+    "ejs": "^3.1.6"
+  }
 }
