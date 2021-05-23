@@ -18,8 +18,7 @@
 ### Socket.io
 ### NodeJS 
 ### Express
-### PeerJS
-
+### PeerJS (WebRTC)
 
 ## Essential commands :
 
@@ -29,3 +28,4 @@
 ### npm install ejs -- EJS (Embedded JavaScript) Allows us to pass variables in HTML 
 ### npm install uuid -- To generate unique ID's using Cryptographically-strong random values
 ### npm install socket.io -- It enables realtime, bi-directional communication between web clients and servers. 
+### 
